@@ -5,7 +5,7 @@ export class AbstractComponent {
     #element = null;
     constructor() {
         if (new.target === AbstractComponent) {
-            throw new Error('Cannot instantiate AbstractComponent, only concrete one.');
+            throw new Error('Can\'t instantiate AbstractComponent, only concrete one.');
         }
     }
 
@@ -18,7 +18,7 @@ export class AbstractComponent {
     }
 
     get template() {
-        throw new Error('Abstract method not implemented');
+        throw new Error('Abstract method not implemented: get template');
     }
 
     removeElement() {
