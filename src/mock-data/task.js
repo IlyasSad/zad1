@@ -7,38 +7,33 @@ export const tasks = [
         tasks: [
             {
                 id: generateID(),
-                name: "Завтрак"
+                name: "сделать дз"
             },
             {
                 id: generateID(),
-                name: "Даaaa"
+                name: "приготовить кофэ"
             },
             {
                 id: generateID(),
-                name: "Занятия"
+                name: "выпить кофэ"
             }
         ]
     },
     {
         status: Status.PROCESSING,
-        tasks: [
-            {
-                id: generateID(),
-                name: "Чай"
-            },
-            {
-                id: generateID(),
-                name: "Сухарики"
-            },
-            {
-                id: generateID(),
-                name: "Лимон"
-            }
-        ]
+        tasks: []
     },
     {
         status: Status.DONE,
         tasks: [
+            {
+                id: generateID(),
+                name: "сделать сальто"
+            },
+            {
+                id: generateID(),
+                name: "сделать двойное сальто вертушку"
+            }
         ]
     },
     {
@@ -46,12 +41,20 @@ export const tasks = [
         tasks: [
             {
                 id: generateID(),
-                name: "Помочь маме"
+                name: "петь песню"
             },
             {
                 id: generateID(),
-                name: "Сделать домашку"
+                name: "еще песню петь"
+            },
+            {
+                id: generateID(),
+                name: "допеть песню"
+            },
+            {
+                id: generateID(),
+                name: "дописать сервис чата используя сервлеты и редис на спринг"
             }
         ]
     }
-];
+]
