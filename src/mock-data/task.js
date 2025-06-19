@@ -1,20 +1,21 @@
+
 import { Status } from "../../const.js";
 
 export const tasks = [
     {
         status: Status.BACKLOG,
-        tasks: ["Записаться в спортзал"]
+        tasks: ["Записаться в спортзал", "Купить новый ноутбук", "Спланировать отпуск"]
     },
     {
         status: Status.PROCESSING,
-        tasks: ["Сходить в магаз"]
+        tasks: []
     },
     {
         status: Status.DONE,
-        tasks: ["Устроится на работу"]
+        tasks: ["Создать API на Spring Boot", "Настроить CI/CD для проекта"]
     },
     {
         status: Status.BASKET,
-        tasks: ["Выучить React"]
+        tasks: ["Переписать код с jQuery на чистый JavaScript", "Удалить старые зависимости", "Перенести проект на новую версию Node.js"]
     }
 ];
